@@ -37,7 +37,7 @@ hr {
 h1 {
     color: #66bfbf;
     font-family: 'Sacramento', cursive;
-    font-size: 400%;
+    font-size: 4.3em;
     padding-top: 40px;
 }
 
@@ -117,7 +117,7 @@ p {
     height: 40em;
 }
 
-.page2 {
+.skills-para {
     width: 80%;
     margin: auto;
     padding-top: 10px;
@@ -125,21 +125,15 @@ p {
     margin-left: 0px;
 }
 
-.page4 {
-    width: 80%;
-    margin: auto;
-    padding-top: 10px;
-    padding-bottom: 50px;
-    margin-left: 10%;
-}
 
-.angela {
+.profile {
     border-radius: 100%;
     background-color: white;
     width: 14%;
+    min-width: 150px;
 }
 
-.angela:hover {
+.profile:hover {
     transition-duration: 0.5s;
     width: 12.5%;
 }
@@ -156,7 +150,7 @@ p {
     box-shadow: 0px 0px 6px 3px #c40031b7;
     color: #9b66b9;
     transition-duration: 0.5s;
-    width: 22.7%;
+    /* width: 22.7%; */
 }
 
 /**.pic1:hover{
@@ -167,9 +161,9 @@ p {
     width: 22.5%;
     float: right;
     border-radius: 100%;
-    margin-left: 20px;
-    position: relative;
-    right: 25px;
+    /* margin-left: 20px; */
+    /* position: relative;
+    right: 25px; */
     border: solid white 6px;
 }
 
@@ -212,7 +206,7 @@ p {
 }
 
 
-.dev-h3 {
+.skills-head {
     margin-bottom: 0px;
     margin-bottom: 0px;
 }
@@ -245,7 +239,7 @@ p {
     font-family: 'Arvo', serif;
 }
 
-.FOOTER {
+.footer {
     padding-top: 18px;
     padding-bottom: 20px;
 }
@@ -385,7 +379,7 @@ p {
     .skill-row{
         /* text-align: left; */
         width: 80%;
-        /* margin: 60px auto; */
+        margin: 0px auto;
         line-height: 2;
         float: none;
         padding-top: 30px;
@@ -397,7 +391,7 @@ p {
         
         width: 35%;
         border-radius: 100%;
-        margin-right: 20px;
+        /* margin-right: 20px; */
         float: none;
         border: solid white 6px;
         display: block;
@@ -409,7 +403,7 @@ p {
         box-shadow: 0px 0px 6px 3px #c40031b7;
         color: #9b66b9;
         transition-duration: 0.5s;
-        width: 22.7%;
+        /* width: 22.7%; */
     }
 
     /* .pic2 {
@@ -464,19 +458,28 @@ p {
         margin-bottom: 60px;
     }
     
-    .HEADER{
+    .header {
         margin-bottom: -5px;
     }
     
 
-    .page2, .page4{
+    .skills-para{
         width: 80%;
-        margin: auto;
+        /* margin: auto 0px auto 0px; */
         padding-top: 10px;
         padding-bottom: 20px;
-        margin-left: 20px;
+        /* margin-left: 20px; */
+    }
+    
+    h1 {
+        color: #66bfbf;
+        font-family: 'Sacramento', cursive;
+        font-size: 3.5em;
     }
 
+    .end {
+        font-size:12.5px;
+    }
 }
 /* 
 @media(min-width: 508px){
